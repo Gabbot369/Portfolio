@@ -1,4 +1,6 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
@@ -61,9 +63,8 @@ body {
 
 .nav-item:hover {
     scale: 1.2rem;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #1DCD9F;
 }
 
 .nav-item.active {
@@ -75,7 +76,7 @@ section {
 }
 
 #home {
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,11 +103,11 @@ section {
 }
 
 #about {
-    height: 600px;
+    height: 100vh;
 }
 
 #contact {
-    height: 600px;
+    height: 100vh;
 }
 
 @keyframes typing {
